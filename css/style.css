@@ -1,0 +1,375 @@
+body{
+    background: rgba(148, 241, 198, 0.7);
+    box-sizing: border-box;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 0;
+   
+ }
+
+ /* .table{
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+.table tbody tr:nth-child(odd){
+	background: #fff;
+}
+.table tbody tr:nth-child(even){
+	background: #F7F7F7;
+} */
+ 
+p {
+    text-align: justify;
+    margin-right: 10px;
+ }
+ 
+ .header{
+    height: 100px;
+    background-color: #a2e721;
+    background-size: cover;
+    padding: 20px 0;
+    line-height: 10px;
+    display:block;
+ }
+ 
+ 
+ .title{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold; 
+    font-size: 60px;
+    text-align: center;
+    line-height: 0px;
+    text-shadow: rgb(90, 247, 168) 2px 2px;
+    color:rgb(11, 141, 130)
+     
+ }
+ 
+ a{
+    text-decoration: none;
+ }
+ 
+ /* .center_photo{
+    text-align: center;
+ } */
+
+
+ /* .photo{
+  filter: sepia(100%);
+  filter: opacity(80%);
+  cursor: pointer;
+ 
+  transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+ }
+ 
+ .photo:hover{
+    filter: brightness(120%);
+    transform: scale(1.05);
+ 
+   -webkit-transform: scale(1.05);
+   -moz-transform: scale(1.05);
+   -o-transform: scale(1.05);
+ } */
+ 
+ div{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-left: 15px;
+    display: block;
+ }
+ 
+ div .inside1 {
+    background-color: rgba(11, 241, 241, 0.4);
+    border: 10px inset green;
+    margin: 10px;
+    display: block;
+ 
+ }
+
+ .inside2 {
+    background-color: rgba(7, 179, 198, 0.4);
+    border: 10px inset rgb(13, 186, 13);
+    margin: 10px;
+    display: block;
+ 
+ }
+
+ .inside2 p{
+     text-align: center;
+     font-size: 28px;
+ }
+ 
+  .error {
+    background-color: rgb(252, 243, 243);
+    border: 10px inset rgb(243, 7, 7);
+    margin: 10px;
+    display: block;
+ 
+ }
+ 
+ .register-form-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     max-width: 445px;
+     background-color: #a2e721;
+     box-shadow: 0px 6px 50px rgb(192, 234, 166);
+     border-radius: 20px;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 38px;
+     padding-bottom: 38px;
+     
+ }
+
+ .form-title{
+    color: rgb(7, 74, 161);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 23px;   
+    margin-bottom: 38px;  
+ }
+
+ .input{
+    height: 45px;
+    width: 100%;
+    font-size: 22px;
+    line-height: 16px;
+    border: 2px solid rgb(185, 240, 236);
+    border-radius: 5px;  
+    padding-left: 15px; 
+ }
+
+ .form-field{
+     margin-bottom: 13px;
+ }
+
+ .button{
+     display: block;
+     height: auto;
+     background: #33ADFF;
+     border-radius: 5px;
+     color: #fff;
+     font-size: 22px;
+     cursor: pointer;
+     
+
+
+ }
+
+ .view{
+   display: block;
+   height: auto;
+   background: #1cf556;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 22px;
+   cursor: pointer;
+   
+}
+
+.add{
+   display: block;
+   height: auto;
+   background: #c2ee48;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 22px;
+   cursor: pointer;
+   
+}
+
+.edit{
+   display: block;
+   height: auto;
+   background: #f1d743;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 22px;
+   cursor: pointer;
+   
+}
+
+.active{
+   background-color: #d297ec;
+}
+
+.delete{
+   display: block;
+   height: auto;
+   background: #f60707;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 22px;
+   cursor: pointer;
+   
+}
+
+.paginate {
+   height: auto;
+   background: #a205e4;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 22px;
+   cursor: pointer;
+   
+}
+.paginate a {
+   height: auto;
+   background: #a205e4;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 22px;
+   cursor: pointer;
+   
+}
+ button:hover{
+     background:rgb(7, 74, 161)
+ }
+
+ .box {
+   display: flex;
+   flex-wrap: wrap;
+   height: 100px;
+   align-content: space-between;
+ }
+
+ .content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 24px;
+    min-width: 400px;
+
+ }
+     
+ .content-table thead tr {
+    background-color: #009879;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    
+ }
+
+ .content-table th, .content-table td {
+    padding: 12px 15px;
+
+ }
+
+ .content-table tbody tr {
+    border-bottom: 1 px solid #ffffff;
+ }
+
+ .content-table tbody tr:nth-of-type(even){
+    background-color: rgb(185, 234, 93);
+ }
+
+ .content-table tbody tr:last-of-type {
+    border-bottom: 3px solid #009879;
+ }
+ /* div .inside2 {
+    background-color: rgba(10, 175, 175, 0.4);
+    border: 10px outset rgb(137, 245, 151);
+    margin:10px;
+    display: block;
+ } */
+ 
+ .navbar {
+    margin-top: 10px;
+    padding: 0;
+    list-style-type: none;
+    width: 150px;
+  }
+ .navbar li {
+    border-left: 10px solid #666;
+    border-bottom: 1px solid #666;
+  }
+ .navbar a {
+    background-color: #949494;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-left: 5px solid #33ADFF;
+    display: block;
+  }
+ 
+ .navbar a:hover{
+    color: black;
+ }
+ 
+ main{
+    margin-top:-25px;
+ }
+ 
+ main h3 {
+    font-size: 38px;
+    color:rgba(250, 166, 11, 1);
+    text-transform:uppercase;
+    text-decoration: underline;
+    text-shadow: rgba(235, 101, 11,0.4) 3px -3px;
+    padding-top:40px;
+    margin: 15px;
+  } 
+ 
+ h2{
+    font-size:37px;
+    text-align: center;
+    color:rgba(117, 18, 247, 0.9);
+ }
+ 
+ 
+ footer abbr:hover{
+    color:rgba(181, 245, 7, 0.9);
+ }
+ 
+ footer {
+    
+    text-align: center;
+    line-height: 60px;
+    background:rgb(8, 135, 173);
+    vertical-align: middle;
+ }
+ 
+ 
+ .topbutton {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    opacity:80%;
+    border: 2px solid #ccc;
+    background: #7e8286;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(69, 6, 240);
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    border-radius: 15px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    }
+    
+ .topbutton:hover{
+    opacity:100%;
+ }
+
